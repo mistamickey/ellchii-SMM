@@ -24,19 +24,20 @@
 </header>
 
 <section class="hero">
-  <h1 class="hero__title">PORTFOLIO</h1>
+ <div class="hero__stack">
+    <h1 class="hero__title">PORTFOLIO</h1>
 
-  <div class="hero__photo-wrap">
-    <div class="hero__photo">
-      <!-- Замени src на реальное фото: /assets/ellchii-photo.png -->
-      <img src="assets/ellchii-photo.png" alt="ellchii" onerror="this.style.display='none'; this.parentElement.classList.add('hero__photo--empty')">
+    <div class="hero__photo-wrap">
+      <div class="hero__photo">
+        <img src="assets/ellchii-photo.jpg" alt="ellchii" onerror="this.style.display='none'; this.parentElement.classList.add('hero__photo--empty')">
+      </div>
+      <svg class="hero__script" viewBox="0 0 420 200">
+        <path id="scriptPath" d="M 20 40 C 100 160, 320 160, 400 40" fill="none"/>
+        <text>
+          <textPath href="#scriptPath" startOffset="50%" text-anchor="middle">marketing &amp; promotion</textPath>
+        </text>
+      </svg>
     </div>
-    <svg class="hero__script" viewBox="0 0 420 200">
-      <path id="scriptPath" d="M 20 40 C 100 160, 320 160, 400 40" fill="none"/>
-      <text>
-        <textPath href="#scriptPath" startOffset="50%" text-anchor="middle">marketing &amp; promotion</textPath>
-      </text>
-    </svg>
   </div>
 
   <div class="hero__bottom">
