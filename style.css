@@ -1,8 +1,8 @@
 :root{
-  --cream: #F4F1EA;
+  --cream: #F7F3F0;
   --ink: #241C1B;
-  --ink-soft: #4A403D;
-  --line: rgba(36,28,27,0.12);
+  --ink-soft: #665552;
+  --line: #CCC2C0;
 }
 
 *{ box-sizing: border-box; }
@@ -65,14 +65,14 @@ a{ color: inherit; text-decoration: none; }
 }
 
 .hero__title{
-  font-family:'Anton', sans-serif;
-  font-weight:400;
+  font-family:'Inter', sans-serif;
+  font-weight:700;
   font-size: clamp(64px, 11vw, 175px);
   line-height: 0.92;
   letter-spacing: -0.01em;
   margin: 0;
   color: var(--ink);
-  text-align:left;
+  text-align:center;
 }
 
 .hero__photo-wrap{
